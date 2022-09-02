@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@600&family=Poppins:wght@400;500;600&family=Sen:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* sign in */
+
+.container-block {
+    display: flex;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    padding: 0 10px;
+    background-color: white;
+}
+
+input[type="email"],
+input[type="password"] {
+    border: 2px solid rgb(224, 224, 224);
+    color: #2b9348 !important;
+}
+
+.forget {
+    float: right;
+}
+
+.btn-login {
+    height: 35px;
+    margin-top: 10px !important;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: #2b9348 !important;
+    color: white !important;
+}
+
+.link {
+    color: #198754;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #198754;
+    text-decoration: none;
+}
+
+.links {
+    color: #198754;
+    font-size: 13px;
+    text-decoration: none;
+    float: left;
+}
+
+.links:hover {
+    color: #198754;
+    text-decoration: none;
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #2b9348;
+}
+
+.card-subtitle {
+    color: #2b9348 !important;
+}
+
+.form-label {
+    color: #2b9348 !important;
+}
+
+.account {
+    color: #154724;
+}
+
+/* sign in end */
+
+/* navbar  */
+.navbar {
+    background-color: #fff;
+}
+
+.brand {
+    font-weight: bolder;
+}
+
+.nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #007f5f !important;
+}
+
+.nav-link button {
+    font-size: 15px;
+    width: 120px;
+    font-weight: 500;
+    color: #007f5f !important;
+    border-color: #007f5f !important;
+}
+
+.nav-link button:hover {
+    background-color: #eeef20;
+    color: #007f5f !important;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+    font-weight: 700;
+    color: #007f5f !important;
+}
+
+.navbar-toggler {
+    color: #007f5f !important;
+    border-color: #007f5f !important;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+    color: #2b9348 !important;
+}
+
+/* body surah */
+
+.text-ends {
+    font-size: 30px;
+    font-family: 'Noto Naskh Arabic', serif !important;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+p.text-trans {
+    margin-bottom: 0;
+}
+
+.card-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.card-container p {
+    margin: 0;
+}
+
+p.names {
+    font-weight: 500;
+}
+
+.surah-number-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin-left: 1rem;
+}
+
+.surah-number-wrapper p {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.surah-card {
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    border-bottom: 2px solid #81C784;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #fff 50%, #E0F2F1 50%);
+    box-shadow: 0 0 10px rgba(234, 234, 234, 0.8);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.surah-name {
+    margin-top: -30px;
+}
+
+/* detail */
+
+.card-containers p {
+    margin: 0;
+}
+
+.bx-play-circle {
+    color: #2b9348;
+}
+
+/* contact */
+
+.form-control:focus, .form-control:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
