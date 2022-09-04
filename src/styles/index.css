@@ -10,7 +10,6 @@
 /* sign in */
 
 .container-block {
-    display: flex;
     height: 100vh;
     display: flex;
     align-items: center;
